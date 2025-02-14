@@ -4,8 +4,8 @@
 A project portfolio built using React, Vite, Node.js, Express, and MongoDB.
 
 ## Project Structure
-- `client/` - Contains the React frontend.
-- `server/` - Contains the Node.js backend.
+- `frontend/` - Contains the React frontend.
+- `backend/` - Contains the Node.js backend.
 
 ## Getting Started
 
