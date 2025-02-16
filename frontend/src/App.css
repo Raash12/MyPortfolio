@@ -120,30 +120,12 @@ body {
   padding: 100px 0;
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 3rem;
-}
-
-.about-item {
-  padding: 2rem;
-  background: #f8f8f8;
-  border-radius: 8px;
-  transition: transform var(--transition-speed);
-}
-
-.about-item:hover {
-  transform: translateY(-5px);
-}
-
 .projects {
   padding: 100px 0;
   background: #f8f8f8;
 }
 
-.projects-grid {
+.projects-grid, .about-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
@@ -214,7 +196,7 @@ body {
   color: var(--primary-color);
 }
 
-.form-input {
+.form-input, .form-textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ddd;
@@ -223,11 +205,6 @@ body {
 }
 
 .form-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 1rem;
   min-height: 150px;
   resize: vertical;
 }
@@ -250,20 +227,12 @@ body {
     grid-template-columns: 1fr;
   }
 }
-
-.button {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: var(--accent-color);
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: all var(--transition-speed);
-  border: 2px solid var(--accent-color);
+.success-message {
+  color: green;
+  margin: 10px 0;
 }
 
-.button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.error-message {
+  color: red;
+  margin: 10px 0;
 }
-

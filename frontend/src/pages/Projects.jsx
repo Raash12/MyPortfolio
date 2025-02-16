@@ -16,7 +16,7 @@ const Projects = () => {
       title: 'Portfolio Website',
       description: 'A personal portfolio website showcasing my work.',
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
-      tags: ['React', 'CSS', 'Vite']
+      tags: ['React','Vite' , 'tailwind css' , 'node js' , 'mongodb']
     }
   ];
 

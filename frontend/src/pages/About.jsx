@@ -1,9 +1,5 @@
 const About = () => {
-  const skills = [
-    { title: 'Frontend', items: ['React', 'JavaScript', 'HTML/CSS'] },
-    { title: 'Backend', items: ['Node.js', 'Python', 'SQL'] },
-    { title: 'Tools', items: ['Git', 'VS Code', 'Docker'] }
-  ];
+  
 
   return (
     <div className="about">
@@ -16,18 +12,7 @@ const About = () => {
           <br />
           🌍 I'm based in Somalia: Mogadishu
         </p>
-        <div className="about-grid">
-          {skills.map((skill, index) => (
-            <div key={index} className="about-item">
-              <h3>{skill.title}</h3>
-              <ul>
-                {skill.items.map((item, i) => (
-                  <li key={i}>{item}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+   
       </div>
     </div>
   );
